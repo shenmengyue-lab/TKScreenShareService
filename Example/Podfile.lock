@@ -1,0 +1,16 @@
+PODS:
+  - TKScreenShareService (0.1.0)
+
+DEPENDENCIES:
+  - TKScreenShareService (from `../`)
+
+EXTERNAL SOURCES:
+  TKScreenShareService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKScreenShareService: 82216516b0f2ccedd6ec8e3c89b6a3081c52a7ad
+
+PODFILE CHECKSUM: 3ec6daeedb708e54f05e79b14ee50b416a43332e
+
+COCOAPODS: 1.16.2

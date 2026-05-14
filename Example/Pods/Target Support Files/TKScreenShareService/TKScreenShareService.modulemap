@@ -1,0 +1,6 @@
+framework module TKScreenShareService {
+  umbrella header "TKScreenShareService-umbrella.h"
+
+  export *
+  module * { export * }
+}

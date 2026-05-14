@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKScreenShareService'
-  s.version          = '0.1.0'
+  s.version          = '4.18.3.2'
   s.summary          = 'A short description of TKScreenShareService.'
 
 # This description is used to generate tags and improve search results.
@@ -24,14 +24,20 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/shenmengyue@talk-cloud.com/TKScreenShareService'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shenmengyue@talk-cloud.com' => '605026935@qq.com' }
-  s.source           = { :git => 'https://github.com/shenmengyue@talk-cloud.com/TKScreenShareService.git', :tag => s.version.to_s }
+  s.author           = { '新拓云（北京）科技有限公司' => 'zhangjiangtao@talk-cloud.com' }
+  s.source           = { :git => 'https://github.com/shenmengyue-lab/TKScreenShareService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'TKScreenShareService/Classes/**/*'
   
+  s.ios.vendored_frameworks = 'TKScreenShareService/Frameworks/*.framework'
+
+  s.static_framework = true
+
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 arm64e' }
+
   # s.resource_bundles = {
   #   'TKScreenShareService' => ['TKScreenShareService/Assets/*.png']
   # }

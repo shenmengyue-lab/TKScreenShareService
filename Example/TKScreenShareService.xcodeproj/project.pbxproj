@@ -61,10 +61,10 @@
 		62AE3F57758FD16468DDE955 /* Pods-TKScreenShareService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKScreenShareService_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TKScreenShareService_Tests/Pods-TKScreenShareService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		69769EE74D39BBC7BE58D9ED /* Pods_TKScreenShareService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKScreenShareService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		768C0202141DD825F0C809DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		768C0202141DD825F0C809DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9864C0181BEE8E640AEFD082 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9EE9AC4464A5BF1B11A87797 /* TKScreenShareService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKScreenShareService.podspec; path = ../TKScreenShareService.podspec; sourceTree = "<group>"; };
+		9864C0181BEE8E640AEFD082 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9EE9AC4464A5BF1B11A87797 /* TKScreenShareService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKScreenShareService.podspec; path = ../TKScreenShareService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6C991727EC5D36A379AFCA2 /* Pods-TKScreenShareService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKScreenShareService_Example.release.xcconfig"; path = "Target Support Files/Pods-TKScreenShareService_Example/Pods-TKScreenShareService_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C15DC123E0C345CCCC85786A /* Pods-TKScreenShareService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKScreenShareService_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKScreenShareService_Example/Pods-TKScreenShareService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				62AE3F57758FD16468DDE955 /* Pods-TKScreenShareService_Tests.debug.xcconfig */,
 				561DA1DCA33E8A3D1AD5A58E /* Pods-TKScreenShareService_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
