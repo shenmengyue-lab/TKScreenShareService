@@ -38,6 +38,7 @@ TODO: Add long description of the pod here.
 
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 arm64e' }
 
+  
   # s.resource_bundles = {
   #   'TKScreenShareService' => ['TKScreenShareService/Assets/*.png']
   # }
