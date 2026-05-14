@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TKScreenShareService_Example' do
+  pod 'TKScreenShareService', :path => '../'
+
+  target 'TKScreenShareService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
