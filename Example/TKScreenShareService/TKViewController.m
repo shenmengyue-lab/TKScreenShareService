@@ -7,6 +7,7 @@
 //
 
 #import "TKViewController.h"
+#import <TKScreenShareService/TKScreenShareService.h>
 
 @interface TKViewController ()
 

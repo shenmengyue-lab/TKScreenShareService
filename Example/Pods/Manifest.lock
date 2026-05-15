@@ -1,5 +1,5 @@
 PODS:
-  - TKScreenShareService (0.1.0)
+  - TKScreenShareService (1.0.2)
 
 DEPENDENCIES:
   - TKScreenShareService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TKScreenShareService: 82216516b0f2ccedd6ec8e3c89b6a3081c52a7ad
+  TKScreenShareService: acae7de5d2225b8056183bf9815590dc8e540a10
 
 PODFILE CHECKSUM: 3ec6daeedb708e54f05e79b14ee50b416a43332e
 

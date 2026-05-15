@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKScreenShareService'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of TKScreenShareService.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
   
   # 壳 target：保证 Pods 工程有可编译的源文件；实际能力在 vendored_frameworks 中
-  s.source_files = 'TKScreenShareService/Classes/**/*.{h,m}'
+#  s.source_files = 'TKScreenShareService/Classes/**/*.{h,m}'
   
   s.ios.vendored_frameworks = 'TKScreenShareService/Frameworks/*.framework'
 
